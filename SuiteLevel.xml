@@ -1,0 +1,17 @@
+<suite name="Suite Level Parallel Testing" parallel="tests" thread-count="5">
+    <test name="Test 1">
+        <classes>
+            <class name="TestCases.SearchPageTest"/>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="TestCases.ComparePageTest"/>
+        </classes>
+    </test>
+    <test name="Test 3">
+        <classes>
+            <class name="TestCases.AddToCartPageTest"/>
+        </classes>
+    </test>
+</suite>

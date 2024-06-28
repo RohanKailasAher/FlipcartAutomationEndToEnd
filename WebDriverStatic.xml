@@ -1,0 +1,9 @@
+
+<suite name="All Test Suite" parallel ="classes" thrad-count ="2">
+    <test name="Test 1">
+        <classes>
+            <class name="WebDriverStatic.chrome"/>
+            <class name="WebDriverStatic.edge"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<suite name="Class Level Suite" parallel="classes" thread-count="3">
+    <test name="Class Level Test">
+        <classes>
+            <!-- Include multiple classes for parallel execution -->
+            <class name="TestCases.SearchPageTest"/>
+            <class name="TestCases.ComparePageTest"/>
+            <class name="TestCases.AddToCartPageTest"/>
+        </classes>
+    </test>
+</suite>
+

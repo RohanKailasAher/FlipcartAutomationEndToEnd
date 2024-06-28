@@ -1,0 +1,45 @@
+<suite name="Method Level Suite" parallel="methods" thread-count="13">
+    <test name="Method Level Test">
+        <classes>
+            <class name="TestCases.SearchPageTest">
+                <methods>
+                    <!-- Include specific methods for parallel execution -->
+                    <include name="verifySelectBrand"/>
+                    <include name="verifyClickOnAllCheckboxes"/>
+                    <include name="verifyClickOnApply"/>
+                    <include name="verifyClickOnNewestFirst"/>
+                    <include name="verifyCompareButton"/>
+                </methods>
+            </class>
+            <class name="TestCases.ComparePageTest">
+                <methods>
+                    <!-- Include specific methods for parallel execution -->
+                    <include name="verifySelectBrand"/>
+                    <include name="verifyClickOnAllCheckboxes"/>
+                    <include name="verifyClickOnApply"/>
+                    <include name="verifyClickOnNewestFirst"/>
+                    <include name="verifyCompareButton"/>
+                    <include name="verifyNumberOfItemsDisplayedAfterComparison"/>
+                </methods>
+            </class>
+            <class name="TestCases.AddToCartPageTest">
+                <methods>
+                    <!-- Include specific methods for parallel execution -->
+                    <include name="verifySelectBrand"/>
+                    <include name="verifyClickOnAllCheckboxes"/>
+                    <include name="verifyClickOnApply"/>
+                    <include name="verifyClickOnNewestFirst"/>
+                    <include name="verifyCompareButton"/>
+                    <include name="verifyNumberOfItemsDisplayedAfterComparison"/>
+                    <include name="verifyAddToCart"/>
+                    <include name="verifyRatingsAndReviews"/>
+                    <include name="verifyAddToCartAgain"/>
+                    <include name="verifyPriceDetailsDisplay"/>
+                    <include name="verifyPriceCalculations"/>
+                    <include name="testNullPointerExcep"/>
+                    <include name="testArithmaticExcep"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
